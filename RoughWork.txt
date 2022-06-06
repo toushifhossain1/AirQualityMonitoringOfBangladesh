@@ -1,0 +1,2 @@
+STAKEHOLDERS
+1) Policy maker (Organisation) 2) Ministry 3) Bangladesh Meteorological Department 4) Eligible Organisation ( Form whom we will retrieve data ) 5) Public 
