@@ -1,1 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T08:49:12.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.1" etag="WfPJLSv42oEWO8wiS0Jr" type="github"><diagram id="Bta4W7-dgrA3sp41XD7f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:27:34.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="solsKGm1HAcKqiSn0gHE" version="20.1.1" type="github">
+  <diagram id="Bta4W7-dgrA3sp41XD7f" name="Page-1">
+    <mxGraphModel dx="1038" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-3" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-110" width="920" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-14" value="Bangladesh Meteorological Department&lt;br&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-3">
+          <mxGeometry x="20" width="900" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-14" source="YjRkIidzmu9C3SZWxRxo-16" target="YjRkIidzmu9C3SZWxRxo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-16" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-14">
+          <mxGeometry x="30" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-14" source="YjRkIidzmu9C3SZWxRxo-21" target="YjRkIidzmu9C3SZWxRxo-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-21" value="Sends Air Pollution Data to the Ministry" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-14">
+          <mxGeometry x="390" y="75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-38" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-14">
+          <mxGeometry x="810" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-4" value="Weather Station" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-3">
+          <mxGeometry x="20" y="240" width="900" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-4" source="YjRkIidzmu9C3SZWxRxo-17" target="YjRkIidzmu9C3SZWxRxo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-17" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-4">
+          <mxGeometry x="30" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-4" source="YjRkIidzmu9C3SZWxRxo-20" target="YjRkIidzmu9C3SZWxRxo-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-20" value="Sends raw AQI data to the Ministry" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-4">
+          <mxGeometry x="390" y="75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-37" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-4">
+          <mxGeometry x="810" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-5" value="Ministry" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-3">
+          <mxGeometry x="20" y="470" width="900" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-18" target="YjRkIidzmu9C3SZWxRxo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-18" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-5">
+          <mxGeometry x="30" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-22" target="YjRkIidzmu9C3SZWxRxo-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-22" value="Receives Air Pollution data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-5">
+          <mxGeometry x="165" y="85" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-23" target="YjRkIidzmu9C3SZWxRxo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-23" value="Receives raw AQI data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-5">
+          <mxGeometry x="390" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-24" target="YjRkIidzmu9C3SZWxRxo-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-24" value="Sends AQI data once every month to the representative of CASE" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-5">
+          <mxGeometry x="640" y="85" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-36" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-5">
+          <mxGeometry x="810" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-53" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="-270" as="sourcePoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-54" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-5" source="YjRkIidzmu9C3SZWxRxo-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="200" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-6" value="Representative of CASE" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-3">
+          <mxGeometry x="20" y="720" width="900" height="190" as="geometry">
+            <mxRectangle x="20" y="240" width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-6" source="YjRkIidzmu9C3SZWxRxo-19" target="YjRkIidzmu9C3SZWxRxo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-6">
+          <mxGeometry x="30" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-25" value="Receives monthly AQI data from ministry" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-6">
+          <mxGeometry x="250" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-34" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-6">
+          <mxGeometry x="810" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-26" value="Insert AQI data in CASE" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-6">
+          <mxGeometry x="520" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-6" source="YjRkIidzmu9C3SZWxRxo-25" target="YjRkIidzmu9C3SZWxRxo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-6" source="YjRkIidzmu9C3SZWxRxo-26" target="YjRkIidzmu9C3SZWxRxo-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-51" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YjRkIidzmu9C3SZWxRxo-3" source="YjRkIidzmu9C3SZWxRxo-20" target="YjRkIidzmu9C3SZWxRxo-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="450" as="sourcePoint" />
+            <mxPoint x="590" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-57" value="Report Generation &amp;amp; Analyzing&lt;br&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="920" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-61" value="User" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-57">
+          <mxGeometry x="20" width="900" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-62" value="Ministry" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-57">
+          <mxGeometry x="20" y="180" width="900" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-58" value="Municipality" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-57">
+          <mxGeometry x="20" y="370" width="900" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-59" value="Representative of CASE" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-57">
+          <mxGeometry x="20" y="550" width="900" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YjRkIidzmu9C3SZWxRxo-60" value="CASE" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="YjRkIidzmu9C3SZWxRxo-57">
+          <mxGeometry x="20" y="750" width="900" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
